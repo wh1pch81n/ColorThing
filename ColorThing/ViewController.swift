@@ -10,8 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var view2: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let color = UIColor.init(named: "ABCColor2", in: .main, compatibleWith: nil)
+        
+        view2.backgroundColor = color
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
